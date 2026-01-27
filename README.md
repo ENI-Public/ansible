@@ -1,2 +1,2 @@
 # ansible
-Script pour la génératino d'une arborescence d'un projet ansible
+Script pour la génération d'une arborescence d'un projet ansible
