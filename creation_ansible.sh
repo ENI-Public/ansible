@@ -6,7 +6,7 @@ echo "Création de l'arborescence du projet Ansible : $PROJECT_NAME..."
 
 
 mkdir -p "$PROJECT_NAME"
-cd "$PROJECT_NAME"
+cd "$PROJECT_NAME" || exit 1
 
 mkdir -p inventory/{production,staging}/{group_vars,host_vars}
 mkdir -p playbooks
